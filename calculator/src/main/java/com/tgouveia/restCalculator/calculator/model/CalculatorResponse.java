@@ -1,11 +1,8 @@
-package com.tgouveia.calculator.model;
+package com.tgouveia.restCalculator.calculator.model;
 
-import lombok.Getter;
-import lombok.Setter;
+import java.io.Serializable;
 
-@Getter
-@Setter
-public class CalculatorResponse {
+public class CalculatorResponse implements Serializable {
     private String result;
     private String error;
 

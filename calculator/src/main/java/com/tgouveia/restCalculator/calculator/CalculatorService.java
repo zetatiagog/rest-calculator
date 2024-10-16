@@ -1,4 +1,4 @@
-package com.tgouveia.calculator;
+package com.tgouveia.restCalculator.calculator;
 
 import org.springframework.stereotype.Service;
 
