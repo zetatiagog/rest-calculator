@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 
 @Service
 public class CalculatorService {
-    public BigDecimal calculate(BigDecimal a, BigDecimal b, String operator) {
+    public BigDecimal calculate(String operator, BigDecimal a, BigDecimal b) {
         switch (operator) {
             case "sum":
                 return a.add(b);

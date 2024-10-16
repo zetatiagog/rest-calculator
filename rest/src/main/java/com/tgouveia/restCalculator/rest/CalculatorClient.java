@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
+import java.util.UUID;
 
 @Service
 public class CalculatorClient {
@@ -21,7 +22,7 @@ public class CalculatorClient {
     }
 
     public CalculatorResponse calculate(String operation, BigDecimal a, BigDecimal b) {
-        CalculatorRequest calculatorRequest = new CalculatorRequest(operation, a, b);
+        CalculatorRequest calculatorRequest = new CalculatorRequest(operation, a, b, UUID.randomUUID().toString());
         rabbitTemplate.convertAndSend(REQUEST_QUEUE, calculatorRequest);
         return (CalculatorResponse) rabbitTemplate.receiveAndConvert(RESPONSE_QUEUE, 5000);
     }
