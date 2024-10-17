@@ -1,0 +1,156 @@
+GET /api/divide?a=1&b=0 HTTP/1.1
+host: localhost:8000
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/jxl,image/webp,image/png,image/svg+xml,*/*;q=0.8
+accept-language: en-GB,en;q=0.5
+accept-encoding: gzip, deflate, br, zstd
+connection: keep-alive
+upgrade-insecure-requests: 1
+sec-fetch-dest: document
+sec-fetch-mode: navigate
+sec-fetch-site: none
+sec-fetch-user: ?1
+priority: u=0, i
+
+
+
+HTTP/1.1 404 Not Found
+Vary: Origin
+
+
+
+GET /favicon.ico HTTP/1.1
+host: localhost:8000
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0
+accept: image/avif,image/jxl,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+accept-language: en-GB,en;q=0.5
+accept-encoding: gzip, deflate, br, zstd
+connection: keep-alive
+referer: http://localhost:8000/api/divide?a=1&b=0
+sec-fetch-dest: image
+sec-fetch-mode: no-cors
+sec-fetch-site: same-origin
+priority: u=6
+
+
+
+HTTP/1.1 404 Not Found
+Vary: Origin
+
+
+
+GET /api/div?a=1&b=0 HTTP/1.1
+host: localhost:8000
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/jxl,image/webp,image/png,image/svg+xml,*/*;q=0.8
+accept-language: en-GB,en;q=0.5
+accept-encoding: gzip, deflate, br, zstd
+connection: keep-alive
+upgrade-insecure-requests: 1
+sec-fetch-dest: document
+sec-fetch-mode: navigate
+sec-fetch-site: none
+sec-fetch-user: ?1
+priority: u=0, i
+
+
+
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Thu, 17 Oct 2024 12:12:25 GMT
+Content-Type: application/json
+
+
+
+GET /favicon.ico HTTP/1.1
+host: localhost:8000
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0
+accept: image/avif,image/jxl,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+accept-language: en-GB,en;q=0.5
+accept-encoding: gzip, deflate, br, zstd
+connection: keep-alive
+referer: http://localhost:8000/api/div?a=1&b=0
+sec-fetch-dest: image
+sec-fetch-mode: no-cors
+sec-fetch-site: cross-site
+priority: u=6
+
+
+
+HTTP/1.1 404 Not Found
+Vary: Origin
+
+
+
+GET /api/div?a=1&b=1 HTTP/1.1
+host: localhost:8000
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/jxl,image/webp,image/png,image/svg+xml,*/*;q=0.8
+accept-language: en-GB,en;q=0.5
+accept-encoding: gzip, deflate, br, zstd
+connection: keep-alive
+upgrade-insecure-requests: 1
+sec-fetch-dest: document
+sec-fetch-mode: navigate
+sec-fetch-site: none
+sec-fetch-user: ?1
+priority: u=0, i
+
+
+
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Thu, 17 Oct 2024 12:12:39 GMT
+Content-Type: application/json
+
+
+
+GET /favicon.ico HTTP/1.1
+host: localhost:8000
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0
+accept: image/avif,image/jxl,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+accept-language: en-GB,en;q=0.5
+accept-encoding: gzip, deflate, br, zstd
+connection: keep-alive
+referer: http://localhost:8000/api/div?a=1&b=1
+sec-fetch-dest: image
+sec-fetch-mode: no-cors
+sec-fetch-site: cross-site
+priority: u=6
+
+
+
+HTTP/1.1 404 Not Found
+Vary: Origin
+
+
+
+GET /api/sub?a=1&b=2 HTTP/1.1
+host: localhost:8000
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/jxl,image/webp,image/png,image/svg+xml,*/*;q=0.8
+accept-language: en-GB,en;q=0.5
+accept-encoding: gzip, deflate, br, zstd
+connection: keep-alive
+upgrade-insecure-requests: 1
+sec-fetch-dest: document
+sec-fetch-mode: navigate
+sec-fetch-site: none
+sec-fetch-user: ?1
+priority: u=0, i
+
+
+
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Thu, 17 Oct 2024 12:13:57 GMT
+Content-Type: application/json
+
+
+

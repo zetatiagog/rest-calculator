@@ -1,4 +1,4 @@
-package com.tgouveia.restCalculator.config;
+package com.tgouveia.restCalculator.rest.config;
 
 import ch.qos.logback.access.tomcat.*;
 import org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory;
